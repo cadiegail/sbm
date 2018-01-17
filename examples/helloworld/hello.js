@@ -13,7 +13,7 @@ Promise.all([System.import('pdfjs/display/api'),
   global.PDFJS.workerSrc = modules[3];
 
   // Fetch the PDF document from the URL using promises.
-  api.getDocument('helloworld.pdf').then(function (pdf) {
+  api.getDocument('Srimad-Bhagavatam-Moola-Parayanam-Tamil.pdf').then(function (pdf) {
     // Fetch the page.
     pdf.getPage(1).then(function (page) {
       var scale = 1.5;
